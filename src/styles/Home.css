@@ -1,0 +1,84 @@
+.main {
+    margin-left: 30px;
+    margin-right: 30px;
+    display: block;
+    margin-top: 100px;
+}
+
+.events-carrousel {
+    min-height: 200px;
+    min-width: 310px;
+}
+
+.react-multi-carousel-list.carousel-container {
+    align-self: center;
+}
+
+.events-filter {
+    background-color: #001b34;
+}
+
+.events-filter-content {
+    border: 1px solid hsla(0,0%,100%,.3);
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+input {
+    margin-left: 10px;
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Montserrat,sans-serif;
+}
+
+/* DROPDOWN */
+
+.events-state-association-dropdown-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.events-state-association-dropdown-title {
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    margin-right: 10px;
+}
+
+.rdn.events-dropdown {
+    align-self: center;
+    min-width: 200px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Montserrat,sans-serif;
+}
+
+.rdn-control-arrow-icon.events-dropdown {
+    top: 8px
+}
+
+.rdn-drop-menu-option.is-selected.events-dropdown {
+    padding: 3px 10px;
+}
+
+.rdn-drop-menu-option.events-dropdown {
+    padding: 3px 10px;
+}
+
+.rdn-control.events-dropdown {
+    padding: 0px 10px 0px 10px;
+    height: 21px;
+}
+
+@media (max-width: 1022px){
+	.events-filter-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-width: 350px;
+        background-color: #001b34 ;
+    }
+}	
